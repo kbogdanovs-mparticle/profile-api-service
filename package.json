@@ -1,0 +1,28 @@
+{
+  "name": "profile-api-service",
+  "version": "1.0.0",
+  "description": "A simple service to call mParticle's Profile API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node -r dotenv/config app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbogdanovs-mparticle/profile-api-service.git"
+  },
+  "author": "kbogdanovs-mparticle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbogdanovs-mparticle/profile-api-service/issues"
+  },
+  "homepage": "https://github.com/kbogdanovs-mparticle/profile-api-service#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
