@@ -2,7 +2,7 @@
 
 An example Node app to call mParticle's profile API service and return the result to a native client.
 
-
+> No authentication is implemented in this app, DO NOT USE for production data
 
 To get started
 
@@ -24,5 +24,5 @@ See `.env.example` for required environment variables.
 npm run dev
 ```
 
-> No authentication is implemented in this app, DO NOT USE for production data
+
 
