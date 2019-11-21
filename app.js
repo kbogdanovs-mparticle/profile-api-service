@@ -30,4 +30,4 @@ app.get('/user/:mpid', async (req, res) => {
     return res.json(jsonProfile);
 });
 
-app.listen(port, () => console.log(`Profile API Service listening on port ${port}!`))
+app.listen(process.env.PORT || 3000, () => console.log(`Profile API Service listening on port ${port}!`))
