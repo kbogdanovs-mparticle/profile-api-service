@@ -9,6 +9,7 @@ exports.defaultProducts = () => {
 };
 
 exports.findByDemo = (demo) => {
+    //Mockup for demo purposes - include your logic to return recs from demographic data here
     return [
             "https://images.pexels.com/photos/1298601/pexels-photo-1298601.jpeg",
             "https://thumbs.dreamstime.com/z/skateboard-14363818.jpg",
@@ -18,6 +19,7 @@ exports.findByDemo = (demo) => {
 };
 
 exports.findByCategory = (category) => {
+    //Mockup for demo purposes - include your logic to return recs from purchase category here
     return [
         "https://images.crateandbarrel.com/is/image/Crate/KnurlSmallCoffeeTableSHS19_16x9/?$web_zoom_furn_hero$&190411135145&wid=1008&hei=567",
         "https://images.crateandbarrel.com/is/image/Crate/Peyton2pcLAChsRASfCshSHF19_3D_16x9/$web_CollectionRepHero$/190618110409/peyton-2-piece-left-arm-chaise-sectional.jpg",
@@ -27,6 +29,7 @@ exports.findByCategory = (category) => {
 };
 
 exports.findByIds = (ids) => {
+    //Mockup for demo purposes - include your logic to return images based on product IDs here
     return [
         "https://images-na.ssl-images-amazon.com/images/I/71aRUlvJegL._SL1500_.jpg",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV7CFK-s16C_q7Ih98wKhlRidmjDx5hzzadg-N8KPHg2LbrlnS&s",
