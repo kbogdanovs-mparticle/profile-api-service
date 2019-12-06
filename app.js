@@ -12,7 +12,7 @@ app.use((req, res, next) => {
 });
 
 // Don't use for production! Returns full profile
-app.get('/full-profile/:mpid', getProfile, (req, res) => {
+app.get('/users/:mpid/full-profile', getProfile, (req, res) => {
     const profile = req.profile || null;
     if (!profile) return res.sendStatus(400);
     return res.json(profile);
