@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 4000;
+const port = process.env.PORT || 4000;
 global.cache = {};
 
 const getProfile = require('./modules/getProfile');
@@ -59,4 +59,4 @@ app.get('/users/:mpid/churn-risk', getProfile, (req, res) => {
 });
 
 
-app.listen(process.env.PORT || port, () => console.log(`Profile API Service listening on port ${port}!`))
+app.listen(port, () => console.log(`Profile API Service listening on port ${port}!`))
